@@ -4,7 +4,7 @@ t = int(input("enter the the numbers of cake: "))
 i = 0
 
 while(i < t):
-    cake_binary = (input("enter the binary number of cake: "))
+    cake_binary = input("enter the binary number of cake: ")
     j = int(cake_binary)
     palindrome = ""
     while(j>0):
