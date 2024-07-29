@@ -1,0 +1,19 @@
+.product-card h3{
+    font-size: 30px;
+    color: brown;
+}
+
+.product-card p{
+    background-color: blue;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+button[type="button"] {
+    background-color: yellow;
+    padding: 8px;
+}
+
+li:hover{
+    background-color: crimson;
+}
