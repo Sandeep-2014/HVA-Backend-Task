@@ -5,20 +5,19 @@
     <title>contact-form</title>
 </head>
 <body>
-    <h2>USERNAME = {{username}} </h2>
     <h2>Contact Form</h2>
     <form action="#" method="post">
-        <label for="">Full Name:</label>
-        <input type="text" name="fullname"><br><br>
-        <label for="">Email Address:</label>
-        <input type="email" name="email"><br><br>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="fullname"><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
         <label for="">Gender:</label>
-        <input type="radio" name="gender" value="male">
-        <label for="">Male</label>
-        <input type="radio" name="gender" value="female">
-        <label for="">Female</label><br><br>
-        <label for="">Subscribe to Newsletter:</label>
-        <input type="checkbox" name="newsletter"><br><br>
+        <input type="radio" id="gender-male" name="gender" value="male">
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">Female</label><br><br>
+        <label for="newsletter">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter"><br><br>
         <button type="submit">Submit</button>
     </form>
 </body>

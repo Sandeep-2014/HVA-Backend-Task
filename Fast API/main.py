@@ -1,12 +1,12 @@
-from fastapi import FastAPI
 
-app = FastAPI()
+# from fastapi import FastAPI
 
+# app = FastAPI()
 
-@app.get("/home")
+# @app.get("/home")
 
-def write_home():
-    return{
-        "Name": "Sandeep Kumar",
-        "age": 20
-    }
+# def write_home():
+#     return{
+#         "Name": "Sandeep Kumar",
+#         "age": 20
+#     }

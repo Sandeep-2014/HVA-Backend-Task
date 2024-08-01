@@ -1,48 +1,67 @@
-li{
+.list{
     list-style: none;
 }
 
-nav{
+ul{
+    background-color: aqua;
+}
+
+.nav{
     background-color:rgb(75, 69, 69);
-    padding: 10px;
+    padding: 30px;
 }
-
-#list{
-    background-color: rgb(255, 0, 212);
-    height: 80px;
-}
-
 
 #list1{
-    background-color: rgb(91, 201, 245);
-    height: 80px;
+    background-color: rgb(255, 0, 212);
+    height: 30px;
 }
 
-#list2{
-    background-color: rgb(255, 0, 212);
+
+/* #list2{
+    background-color: rgb(91, 201, 245);
     height: 80px;
 }
 
 #list3{
-    background-color: rgb(91, 201, 245);
-    height: 80px;
-}
-
-#list4{
     background-color: rgb(255, 0, 212);
     height: 80px;
 }
 
-#list::before{
-    content: " 🖤";
-    position:absolute;
-    width: 40px;
-    height: 40px;
-    background-image: linear-gradient(120deg,pink,white,pink);
-    background-clip: text;
-    color: transparent;
-    top: 5px;
+#list4{
+    background-color: rgb(91, 201, 245);
+    height: 80px;
+}
+
+#list5{
+    background-color: rgb(255, 0, 212);
+    height: 80px;
+}
+ */
+
+
+.list::before{
+    content: " This is ";
+    color: red;
+    margin: 10PX;
+    font-size: 25px;
+}
+
+ul.submenu > li{
+    margin: 1em;
+}
+
+
+.submenu-1 + .submenu-2{
     /* background-color: red; */
-    border-radius: 50%;
-    opacity: 100%;
+    border: 2px dotted green;
+    font-size: 18px;
+    color: rgb(17, 17, 180);
+}
+
+div + p{
+    background-color: blue;
+}
+
+#list4 + #list5{
+    background-color: yellow;
 }
