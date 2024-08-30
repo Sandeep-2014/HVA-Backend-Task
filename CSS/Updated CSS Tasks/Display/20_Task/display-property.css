@@ -1,0 +1,26 @@
+.block-element{
+    display: block;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline-element{
+    display: inline;
+    /* in inline elenmt hight and width doesn't work and the width and height of the content depends on the font size and content length. */
+    border: 1px solid #007BFF;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+.inline-block-element{
+    display: inline-block;
+    /* here we are using inline block it's becuase in inline heght and width doesn't work but when we add block with inline every property we can apply in this that doson't work in display inline */
+    border: 1px solid #FF5733;
+    padding: 5px;
+    width: 100px;
+}
+
+.none-element{
+    display: none;
+}
