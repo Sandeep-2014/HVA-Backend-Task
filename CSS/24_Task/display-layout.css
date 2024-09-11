@@ -1,0 +1,28 @@
+.column2, .column3{
+    display: inline-block;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column2{
+    width: 49%;
+}
+
+.column3{
+    width: 32%;
+}
+
+.header, .footer{
+    border: 2px solid black;
+    background-color: #4CAF50;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 20px;
+}
