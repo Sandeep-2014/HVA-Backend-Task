@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/HTML/04_Task/formatting-tags.html"
+    "livePreview.defaultPreviewPath": "/HTML/04_Task/formatting-tags.html",
+    "liveServer.settings.port": 5501
 }
