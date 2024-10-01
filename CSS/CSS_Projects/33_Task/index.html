@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="shortcut icon" href="./Assets/yt.png" type="image/x-icon">
+    <link rel="stylesheet" href="./youtube-clone.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./another-youtube.css"> -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-header-div">
+            <label for="opensidebarMenu" class="sideIconToggle">
+                <img src="./Assets/asset 43.svg" alt="">
+            </label>
+
+            <div class="left-header-div-content-2">
+                <img class="youtube-icon" src="./Assets/asset 45.svg" alt=""> <sup>IN</sup>
+            </div>
+        </div>
+        <div class="center-header-div">
+            <form action="/result">
+                <input type="text" id="search" name="search" placeholder="Search">
+                <div id="search-button">
+                    <button type="button">
+                        <img src="./Assets/asset 48.svg" alt="">
+                    </button>
+                </div>
+            </form>
+            <div class="mic-container">
+                <img src="./Assets/asset 49.svg" alt="">
+            </div>
+        </div>
+        <div class="right-header-div">
+            <div class="right-header-div-content-1">
+                <img src="./Assets/asset 50.svg" alt="">
+            </div>
+            <div class="right-header-div-content-2">
+                <img src="./Assets/asset 51.svg" alt="">
+            </div>
+            <div class="right-header-div-content-3">
+                <img class="username_image" src="./Assets/asset 1.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile header -->
+
+    <div class="mobile-header">
+        <div class="mobile-left">
+            <img src="./Assets/asset 45.svg" alt="">
+        </div>
+        <div class="mobile-right">
+            <img src="./Assets/asset 69.svg" alt="">
+            <img src="./Assets/asset 51.svg" alt="">
+            <img src="./Assets/asset 48.svg" alt="">
+        </div>
+    </div>
+
+    <!-- mobile footer -->
+
+    <div class="mobile-footer">
+        <div class="mobile-footer-icon">
+            <img src="./Assets/asset 56.svg" alt="">
+            <p>Home</p>
+        </div>
+        <div class="mobile-footer-icon">
+            <img src="./Assets/asset 57.svg" alt="">
+            <p>Shorts</p>
+        </div>
+        <div class="mobile-footer-center">
+            <img src="Assets/asset 42.svg" alt="">
+        </div>
+        <div class="mobile-footer-icon">
+            <img src="./Assets/asset 58.svg" alt="">
+            <p>Subscriotion</p>
+        </div>
+        <div class="mobile-footer-user-icon">
+            <img src="./Assets/asset 1.jpeg" alt="">
+            <p>You</p>
+        </div>
+    </div>
+
+    <!-- main container -->
+
+    <!-- <div class="main-content"> -->
+    <input type="checkbox" id="opensidebarMenu">
+    <div class="small-sidebar">
+        <div class="small-div-box">
+            <img src="./Assets/asset 56.svg" alt="">
+            <p class="box-content1">Home</p>
+        </div>
+        <div class="small-div-box">
+            <img src="./Assets/asset 57.svg" alt="">
+            <p class="box-content1">Shorts</p>
+        </div>
+        <div class="small-div-box">
+            <img src="./Assets/asset 58.svg" alt="">
+            <p class="box-content1 sub">Subscription</p>
+        </div>
+        <div class="small-div-box">
+            <img src="./Assets/asset 59.svg" alt="">
+            <p class="box-content1">You</p>
+        </div>
+    </div>
+    <div id="side-bar">
+        <div class="side-part-1">
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 56.svg" alt="">
+                <p>Home</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 57.svg" alt="">
+                <p>Shorts</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 58.svg" alt="">
+                <p>Subscription</p>
+            </div>
+        </div>
+        <hr>
+        <div class="side-part-1">
+            <div class="side-part-1-heading">
+                <p class="heading">You</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 61.svg" alt="">
+                <p>History</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 62.svg" alt="">
+                <p>Playlist</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 63.svg" alt="">
+                <p>Watch later</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 64.svg" alt="">
+                <p>Liked videos</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 64.svg" alt="">
+                <p>My videos</p>
+            </div>
+        </div>
+        <hr>
+        <div class="side-part-1">
+            <div class="side-part-1-heading">
+                <p class="heading">Explore</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 66.svg" alt="">
+                <p>Trending</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 67.svg" alt="">
+                <p>Shoping</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 68.svg" alt="">
+                <p>Music</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 69.svg" alt="">
+                <p>Movies</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 70.svg" alt="">
+                <p>Live</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 71.svg" alt="">
+                <p>Gaming</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 72.svg" alt="">
+                <p>News</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 73.svg" alt="">
+                <p>Sports</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 74.svg" alt="">
+                <p>Courses</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 75.svg" alt="">
+                <p>Fashion & Beauty</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 76.svg" alt="">
+                <p>Podcast</p>
+            </div>
+        </div>
+        <hr>
+        <div class="side-part-1">
+            <div class="side-part-1-heading">
+                <p class="heading">More from YouTube</p>
+            </div>
+            <div class="side-part-1-content color-svg">
+                <img src="./Assets/asset 77.svg" alt="">
+                <p>YouTube Premium</p>
+            </div>
+            <div class="side-part-1-content color-svg">
+                <img src="./Assets/asset 78.svg" alt="">
+                <p>YouTube Music</p>
+            </div>
+            <div class="side-part-1-content color-svg">
+                <img src="./Assets/asset 79.svg" alt="">
+                <p>YouTube Kids</p>
+            </div>
+        </div>
+        <hr>
+        <div class="side-part-1">
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 80.svg" alt="">
+                <p>Settings</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 81.svg" alt="">
+                <p>Report history</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 82.svg" alt="">
+                <p>Help</p>
+            </div>
+            <div class="side-part-1-content">
+                <img src="./Assets/asset 83.svg" alt="">
+                <p>Send feedback</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <p class="footer-content">About Press Copyright Contact us Creators Advertise Developers</p>
+            <p class="footer-content">Terms Privacy Policy & Safety How YouTube worksTest new features</p>
+            <div class="footer-content">
+                <p>© 2024 Google LLC</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="main-container"> -->
+    <div class="suggestion">
+        <div class="suggestion-content sug">All</div>
+        <div class="suggestion-content">Music</div>
+        <div class="suggestion-content">Mixes</div>
+        <div class="suggestion-content">Javasript</div>
+        <div class="suggestion-content">India pop music</div>
+        <div class="suggestion-content">Linux</div>
+        <div class="suggestion-content">Data Structures</div>
+        <div class="suggestion-content">Desktop computers</div>
+        <div class="suggestion-content">T-Series</div>
+        <div class="suggestion-content">Reverberation</div>
+        <div class="suggestion-content">Arjit Singh</div>
+        <div class="suggestion-content">Web series</div>
+        <div class="suggestion-content">Live</div>
+        <div class="suggestion-content">SQL</div>
+        <div class="suggestion-content">Information technology</div>
+        <div class="suggestion-content">AI</div>
+        <div class="suggestion-content">Compiler</div>
+        <div class="suggestion-content">Dramedy</div>
+        <div class="suggestion-content">Electronic dance music</div>
+        <div class="suggestion-content">Recently uploded</div>
+        <div class="suggestion-content">Watched</div>
+        <div class="suggestion-content">New to you</div>
+    </div>
+    <div class="youtube-video">
+        <input type="checkbox" id="opensidebarMenu">
+
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video-box">
+            <div class="image">
+                <img class="thumbnail" src="./Assets/first.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <div class="user">
+                    <img class="user-image" src="./Assets/user-profile-1.jpg" alt="">
+                </div>
+                <div class="about-video">
+                    <p class="title">Full Song: KHAIRIYAT (BONUS TRACK) | CHHICHHORE | Sushant, Shraddha |
+                        Pritam, Amitabh B|Arijit Singh</p>
+                    <p class="channel">T-Series</p>
+                    <div class="reaching">
+                        <p class="view">1.6M</p>
+                        <div class="seprator"></div>
+                        <p class="date">7 years ago</p>
+                    </div>
+                </div>
+                <div class="more-button">
+                    <img src="./Assets/asset 92.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+</body>
+
+</html>
