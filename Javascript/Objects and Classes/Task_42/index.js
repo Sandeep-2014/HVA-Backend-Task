@@ -8,11 +8,11 @@ class Employee{
         this.salary = salary;
     }
 
-    greet = function(){
+    greet(){
         return `Hello, I am ${this.name}, ${this.position}`
     }
 
-    displaySalary = function(){
+    displaySalary(){
         return `Salary: $${this.salary}`
     }
 }
