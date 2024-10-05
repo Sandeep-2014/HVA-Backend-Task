@@ -2,12 +2,12 @@
 // 1. :- Greet Function:
 
 function greet(name){
-    // return console.log(`Hello, ${name}!`);
+    // console.log(`Hello, ${name}!`);
     return (`Hello ${name}`);
 }
 
-// greet("Sandeep Kumar")
-console.log(greet("Sandeep Kumar"));
+// greet("Sandeepa Kumar")
+// console.log(greet("Sandeep Kumar"));
 
 
 // 2. :- GreetDefault Function:
@@ -28,7 +28,7 @@ let greetFunction = function greet(name){
     return (`Hello, ${name}!`);
 }
 
-console.log(greetFunction("Ravi"));
+// console.log(greetFunction("Ravi"));
 
 
 
@@ -39,7 +39,7 @@ let greetArrow = (name) => {
     return (`Hello, ${name}!`);
 }
 
-console.log(greetArrow("Deepak"));
+// console.log(greetArrow("Deepak"));
 
 
 
