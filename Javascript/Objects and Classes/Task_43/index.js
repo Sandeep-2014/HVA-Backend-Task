@@ -7,11 +7,11 @@ class Book{
         this.genre = genre;
     }
 
-    describe = function(){
+    describe(){
         return `${this.title} - ${this.author}(${this.year})`
     }
 
-    displayGenre = function(){
+    displayGenre(){
         return `Genre: ${this.genre}`
     }
 }
