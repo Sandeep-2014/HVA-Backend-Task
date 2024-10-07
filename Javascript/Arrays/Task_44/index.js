@@ -53,8 +53,12 @@ console.log(colors.indexOf("blue"));
 
 // f. Add and Iterate Over Properties:
 
-colors.push({owner: "Sandeep Kumar"})
+colors.owner = "Sandeep Kumar"
 console.log(colors);
+
+for(let key in colors){
+    console.log(`${key} : ${colors[key]}`);
+}
 
 
 

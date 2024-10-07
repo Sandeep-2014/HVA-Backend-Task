@@ -7,7 +7,7 @@ class Book{
         this.genre = genre;
     }
 
-    describe(){
+    describe = function(){
         return `${this.title} - ${this.author}(${this.year})`
     }
 
