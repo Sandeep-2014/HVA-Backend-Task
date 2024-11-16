@@ -1,0 +1,22 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+span {
+    font-style: italic;
+}
+
+#content div {
+    border-left: 2px solid #ddd;
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+
+#content div div {
+    padding-left: 10px;
+    margin-left: 15px;
+}
+

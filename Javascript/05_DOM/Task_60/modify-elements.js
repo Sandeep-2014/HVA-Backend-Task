@@ -1,6 +1,6 @@
 // b. Change the Text Content of an Element on Button Click:
 const btn = document.getElementById('btn')
-btn.addEventListener('click', function(){
+btn.addEventListener('click', function () {
     let p = document.getElementsByTagName('p')
     console.log(p);
     p[0].textContent = 'Text has been changed!'
@@ -17,7 +17,7 @@ btn.addEventListener('click', function(){
 
 
 const div = document.querySelector('div')
-div.addEventListener('mouseover', function(){
+div.addEventListener('mouseover', function () {
     div.style.backgroundColor = 'yellow';
     div.style.color = 'blue'
 });
@@ -25,7 +25,7 @@ div.addEventListener('mouseover', function(){
 
 // d. Use innerHTML to Insert HTML Content Dynamically:
 const btn2 = document.getElementById('btn2')
-btn2.addEventListener('click', function(){
+btn2.addEventListener('click', function () {
     const htmlContent = document.getElementById('htmlContent')
     htmlContent.innerHTML = '<h1> This is heading 1 </h1> <p> This is para 1 </p>'
 });
@@ -33,22 +33,21 @@ btn2.addEventListener('click', function(){
 
 // e. Toggle the Visibility of an Element:
 const btn3 = document.getElementById('btn3')
-btn3.addEventListener('click', function(){
+btn3.addEventListener('click', function () {
     const para = document.getElementById('para1')
-    let visibility = para.style.display
-    if(visibility === 'block'){
+    // let visibility = getComputedStyle(para)
+    let visibility = getComputedStyle(para).display
+    console.log(visibility);
+
+    // let visibility = para.style.display
+    // console.log(visibility);
+
+
+    if (visibility === 'block') {
         console.log('the display was block');
         para.style.display = 'none'
-    }else{
+    } else {
         console.log('the display was none');
         para.style.display = 'block'
     }
-    
-    // if(para.style.display === "block"){
-    //     console.log('the display was block');
-    //     para.style.display = 'none'   
-    // }else{
-    //     console.log('the display was none');
-    //     para.style.display = 'block'
-    // }
-})  
+}) 
