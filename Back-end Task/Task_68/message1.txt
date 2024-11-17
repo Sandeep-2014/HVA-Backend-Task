@@ -1,0 +1,4 @@
+this is asynchronously bahaviour file
+I am apending the text through "appendFile"
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"

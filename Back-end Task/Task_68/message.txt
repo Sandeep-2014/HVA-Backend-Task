@@ -1,0 +1,8 @@
+this is synchronously bahaviour file
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"
+I am apending the text through "appendFileSync"
