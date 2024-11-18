@@ -19,16 +19,21 @@
 arrLenght = int(input('enter the lenght of arrays :- '))
 arr = list(map(int, input('Enter numbers separated by space: ').split()))
 arr1 = list(map(int, input('Enter numbers separated by space: ').split()))
+emptArr = []
 
 # i = 0
 # while i < arrLenght:
 #     j = 0
 #     while j < arrLenght:
-#         if arr[i] == arr1[j]:
-#             print(arr[i])
-#             break
+#         if arr[i] in emptArr:
+#             i += 1
 #         else:
-#             j+=1
+#             if arr[i] == arr1[j]:
+#                 emptArr.append(arr[i])
+#                 print(arr[i])
+#                 break
+#             else:
+#                 j+=1
 #     i+=1
 
 
@@ -43,21 +48,21 @@ arr1 = list(map(int, input('Enter numbers separated by space: ').split()))
 #         print(arr[i])
 #     i+=1
 
-arr.sort()     # Sort the first array
-arr1.sort()    # Sort the second array
-print(arr)
-print(arr1)
-i, j = 0, 0    # Initialize two pointers
+# arr.sort()   
+# arr1.sort()    
+# print(arr)
+# print(arr1)
+# i, j = 0, 0   
 
-# Traverse both arrays to find common elements
-while i < len(arr) and j < len(arr1):
-    print(i)
-    print(j)
-    if arr[i] == arr1[j]:
-        print(arr[i])  # Print common element
-        i += 1         # Move both pointers
-        j += 1
-    elif arr[i] < arr1[j]:
-        i += 1         # Move pointer in the first array
-    else:
-        j += 1         # Move pointer in the second array
+# # Traverse both arrays to find common elements
+# while i < len(arr) and j < len(arr1):
+#     # print(i)
+#     # print(j)
+#     if arr[i] == arr1[j]:
+#         print(arr[i])  
+#         i += 1         
+#         j += 1
+#     elif arr[i] < arr1[j]:
+#         i += 1         
+#     else:
+#         j += 1  
