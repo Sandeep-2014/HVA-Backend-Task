@@ -1,6 +1,7 @@
 const form = document.querySelector('form')
 const addedTask = document.getElementById('addedTask')
 const completedTasksList = document.getElementById('completedTasksList')
+
 let myEditBtn = false
 let updateIndes = null
 let removeIndex = null
@@ -8,6 +9,8 @@ let ischeckTrue = null
 
 let tasks = JSON.parse(localStorage.getItem('addTask')) || []
 let completeTask = JSON.parse(localStorage.getItem('completedTasks')) || [];
+
+
 
 if (tasks) {
     displayTask(tasks)
@@ -32,9 +35,7 @@ form.addEventListener('submit', function (event) {
     console.log(priority);
 
     let tasks = JSON.parse(localStorage.getItem('addTask')) || []
-    if (!tasks) {
-        tasks = []
-    }
+
     console.log(myEditBtn);
     console.log(updateIndes);
 

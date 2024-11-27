@@ -17,8 +17,9 @@ function areaOfTriangle(base, height){
 
 function calculatePaintingCost(dimension1, dimension2, calculateArea){
     area = calculateArea(dimension1, dimension2)
-    const costPerUnit = 2 * area
-    return area 
+    const costPerUnit = 2
+    let total = costPerUnit * area
+    return total 
 }
 
 

@@ -53,7 +53,7 @@ function displayCurrentWeather(currentWeatherData) {
     let nameOfCity = currentWeatherData.name
     // console.log(nameOfCity
     // console.log('city name is:- ', nameOfCity);
-    // console.log('date is:- ', date);
+    // console.log('date is:- ', date);log
     // console.log('temprature is:- ', temprature);
     // console.log('humidity is:- ', humidity);
     // console.log('wind Speed is :- ', windSpeed);
